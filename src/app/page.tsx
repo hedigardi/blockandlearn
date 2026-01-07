@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Mail, Twitter, Youtube } from "lucide-react";
 import { TikTokIcon } from "@/components/icons";
 import { Logo } from "@/components/logo";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const socialLinks = [
   { name: "YouTube", href: "#", icon: Youtube },
@@ -15,7 +16,9 @@ export default function Home() {
     <div className="relative flex min-h-screen w-full flex-col items-center justify-between p-4 sm:p-8">
       <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,hsl(var(--primary)/0.1),transparent)]" />
       
-      <div />
+      <div className="absolute top-4 right-4">
+        <ThemeToggle />
+      </div>
 
       <main className="flex w-full max-w-3xl flex-col items-center gap-8 text-center animate-in fade-in-50 duration-1000">
         <Logo />
