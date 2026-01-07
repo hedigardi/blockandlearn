@@ -43,7 +43,7 @@ export default function Home() {
           At Block & Learn, we believe financial freedom starts with knowledge.
           Our mission is to empower you with easy-to-understand lessons on
           Bitcoin, blockchain, and the new world of digital finance. No
-          confusion, no gatekeeping — just clear, honest education for anyone
+          confusion, no gatekeeping, just clear, honest education for anyone
           ready to take control of their financial future.
         </p>
 
