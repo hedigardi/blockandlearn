@@ -11,7 +11,7 @@ export function Logo({ className }: { className?: string }) {
           src={logoImage.imageUrl}
           alt={logoImage.description}
           width={64}
-          height={76}
+          height={64}
           data-ai-hint={logoImage.imageHint}
           className="h-16 w-16"
         />
