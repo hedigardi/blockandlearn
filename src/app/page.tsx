@@ -13,7 +13,7 @@ const socialLinks = [
 
 export default function Home() {
   return (
-    <div className="relative flex min-h-screen w-full flex-col items-center justify-between p-4 sm:p-8">
+    <div className="relative flex min-h-screen w-full flex-col items-center justify-center p-4 sm:p-8">
       <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,hsl(var(--primary)/0.1),transparent)]" />
       
       <div className="absolute top-4 right-4">
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="w-full text-center text-sm text-foreground/60">
+      <footer className="absolute bottom-4 w-full text-center text-sm text-foreground/60">
         <div className="flex flex-col items-center justify-center gap-4">
           <a
             href="mailto:contact@blockandlearn.com"
