@@ -4,11 +4,27 @@ import { Logo } from "@/components/logo";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 const socialLinks = [
-  { name: "YouTube", href: "#", icon: Youtube },
-  { name: "TikTok", href: "#", icon: TikTokIcon },
-  { name: "Instagram", href: "#", icon: Instagram },
-  { name: "Facebook", href: "#", icon: Facebook },
-  { name: "X (Twitter)", href: "#", icon: Twitter },
+  {
+    name: "YouTube",
+    href: "https://www.youtube.com/@BlockAndLearn",
+    icon: Youtube,
+  },
+  {
+    name: "TikTok",
+    href: "https://www.tiktok.com/@blockandlearn",
+    icon: TikTokIcon,
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/blockandlearn/",
+    icon: Instagram,
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/blockandlearn/",
+    icon: Facebook,
+  },
+  { name: "X (Twitter)", href: "https://x.com/blockandlearn", icon: Twitter },
 ];
 
 export default function Home() {
