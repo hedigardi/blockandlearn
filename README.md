@@ -4,8 +4,6 @@
 
 This is a web application built with Next.js, React, and Tailwind CSS. It was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and developed in Firebase Studio.
 
-![Block & Learn Screenshot](https://storage.googleapis.com/stedi-assets/block-and-learn-screenshot.png)
-
 ## ✨ Features
 
 *   **Modern Tech Stack:** Built with the latest web technologies for a fast and reliable user experience.
@@ -27,7 +25,7 @@ You need to have Node.js and npm installed on your machine.
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/hedigardi/block-and-learn.git
+    git clone https://github.com/hedigardi/blockandlearn.git
     ```
 2.  Install NPM packages
     ```sh
@@ -70,4 +68,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📫 Contact
 
-Project Link: [https://github.com/hedigardi/block-and-learn](https://github.com/hedigardi/block-and-learn)
+Project Link: [https://github.com/hedigardi/blockandlearn](https://github.com/hedigardi/blockandlearn)
