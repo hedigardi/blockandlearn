@@ -27,7 +27,7 @@ You need to have Node.js and npm installed on your machine.
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/your-username/block-and-learn.git
+    git clone https://github.com/hedigardi/block-and-learn.git
     ```
 2.  Install NPM packages
     ```sh
@@ -70,4 +70,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📫 Contact
 
-Project Link: [https://github.com/your-username/block-and-learn](https://github.com/your-username/block-and-learn)
+Project Link: [https://github.com/hedigardi/block-and-learn](https://github.com/hedigardi/block-and-learn)
