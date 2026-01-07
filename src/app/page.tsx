@@ -47,19 +47,24 @@ export default function Home() {
           ready to take control of their financial future.
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
-          {socialLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              aria-label={`Visit our ${link.name} page`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group rounded-full border border-border p-3 transition-all duration-300 hover:scale-110 hover:border-accent hover:bg-accent/10"
-            >
-              <link.icon className="h-6 w-6 text-foreground/80 transition-colors group-hover:text-primary" />
-            </a>
-          ))}
+        <div className="flex flex-col items-center gap-4 pt-4">
+          <p className="text-sm text-foreground/80">
+            Follow us on our social media channels below.
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            {socialLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.href}
+                aria-label={`Visit our ${link.name} page`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group rounded-full border border-border p-3 transition-all duration-300 hover:scale-110 hover:border-accent hover:bg-accent/10"
+              >
+                <link.icon className="h-6 w-6 text-foreground/80 transition-colors group-hover:text-primary" />
+              </a>
+            ))}
+          </div>
         </div>
       </main>
 
