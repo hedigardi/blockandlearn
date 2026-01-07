@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import logoImage from "@/lib/logo_transparent.png";
+import logoImage from "@/ui/logo_transparent.png";
 
 export function Logo({ className }: { className?: string }) {
   return (
