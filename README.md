@@ -2,7 +2,7 @@
 
 > Empowering you with easy-to-understand lessons on Bitcoin, blockchain, and the new world of digital finance.
 
-This is a web application built with Next.js, React, and Tailwind CSS. It was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and developed in Firebase Studio.
+This is a web application built with Next.js, React, and Tailwind CSS. It was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## ✨ Features
 
