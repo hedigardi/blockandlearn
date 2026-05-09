@@ -6,10 +6,10 @@ This is a web application built with Next.js, React, and Tailwind CSS. It was bo
 
 ## ✨ Features
 
-*   **Modern Tech Stack:** Built with the latest web technologies for a fast and reliable user experience.
-*   **Theme Toggle:** Switch between light and dark modes.
-*   **Responsive Design:** Looks great on all devices, from desktops to mobile phones.
-*   **AI-Powered (coming soon):** Genkit integration for future generative AI features.
+- **Modern Tech Stack:** Built with the latest web technologies for a fast and reliable user experience.
+- **Theme Toggle:** Switch between light and dark modes.
+- **Responsive Design:** Looks great on all devices, from desktops to mobile phones.
+- **AI-Powered (coming soon):** Genkit integration for future generative AI features.
 
 ## 🚀 Getting Started
 
@@ -18,8 +18,9 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 
 You need to have Node.js and npm installed on your machine.
-*   [Node.js](https://nodejs.org/) (v18 or later recommended)
-*   [npm](https://www.npmjs.com/get-npm)
+
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- [npm](https://www.npmjs.com/get-npm)
 
 ### Installation
 
@@ -42,13 +43,13 @@ Open [http://localhost:9002](http://localhost:9002) in your browser to see the r
 
 This project is built with a modern, performant, and scalable tech stack:
 
-*   [**Next.js**](https://nextjs.org/) - A React framework for building server-rendered applications.
-*   [**React**](https://reactjs.org/) - A JavaScript library for building user interfaces.
-*   [**TypeScript**](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript.
-*   [**Tailwind CSS**](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
-*   [**ShadCN UI**](https://ui.shadcn.com/) - A collection of beautifully designed, accessible, and customizable React components.
-*   [**Genkit**](https://firebase.google.com/docs/genkit) - An open-source framework from Google to help build, deploy, and monitor production-ready AI-powered apps.
-*   [**Lucide React**](https://lucide.dev/) - A simple and beautiful icon library.
+- [**Next.js**](https://nextjs.org/) - A React framework for building server-rendered applications.
+- [**React**](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [**TypeScript**](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript.
+- [**Tailwind CSS**](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
+- [**ShadCN UI**](https://ui.shadcn.com/) - A collection of beautifully designed, accessible, and customizable React components.
+- [**Genkit**](https://firebase.google.com/docs/genkit) - An open-source framework from Google to help build, deploy, and monitor production-ready AI-powered apps.
+- [**Lucide React**](https://lucide.dev/) - A simple and beautiful icon library.
 
 ## 🤝 Contributing
 
@@ -68,4 +69,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📫 Contact
 
-Project Link: [https://github.com/hedigardi/blockandlearn](https://github.com/hedigardi/blockandlearn)
+Project Link: [https://blockandlearn.com](https://blockandlearn.com)
