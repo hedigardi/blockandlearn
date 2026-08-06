@@ -1,12 +1,54 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "Block & Learn",
+  metadataBase: new URL("https://blockandlearn.com"),
+  title: {
+    default: "Block & Learn",
+    template: "%s | Block & Learn",
+  },
   description:
     "Empowering you with easy-to-understand lessons on Bitcoin, blockchain, and the new world of digital finance.",
+  applicationName: "Block & Learn",
+  keywords: [
+    "bitcoin",
+    "blockchain",
+    "crypto",
+    "digital finance",
+    "education",
+  ],
+  authors: [{ name: "Block & Learn" }],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://blockandlearn.com",
+    siteName: "Block & Learn",
+    title: "Block & Learn",
+    description:
+      "Easy-to-understand lessons on Bitcoin, blockchain, and the new world of digital finance.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Block & Learn",
+    description:
+      "Easy-to-understand lessons on Bitcoin, blockchain, and the new world of digital finance.",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#151a28" },
+  ],
 };
 
 export default function RootLayout({
